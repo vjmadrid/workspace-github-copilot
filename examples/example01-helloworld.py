@@ -9,7 +9,7 @@ Example:
 
 def my_function(text: str) -> None:
     """
-    Prints the provided text.
+    Prints the provided text
 
     Args:
         text (str): The text to print.
