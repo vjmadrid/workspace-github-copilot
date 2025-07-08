@@ -1,4 +1,4 @@
-# Experimentar con sugerencias de código para Pythonb
+# Experimentar con sugerencias de código para Python
 
 ## Ejercicio
 

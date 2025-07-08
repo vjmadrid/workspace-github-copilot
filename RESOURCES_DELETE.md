@@ -19,12 +19,23 @@ WEB
 https://www.tutorialspoint.com/github-copilot/index.htm
 https://nira.com/github-copilot/
 https://github.com/github/gitignore/blob/main/Python.gitignore
-https://medium.com/tag/copilot-programming
-https://academy.zerotomastery.io/courses/ai-coding-with-github-copilot/lectures/50931762
-https://www.datacamp.com/tutorial/github-copilot-a-complete-guide-for-beginners
-https://www.edureka.co/blog/github-copilot-tutorial/#ds-iq-Chatbot
-https://www.edureka.co/blog/github-copilot-tutorial/#ds-iq-Installation
 
-https://github.blog/developer-skills/github/how-to-write-better-prompts-for-github-copilot/
+
+
 https://medium.com/ixor/github-copilot-ac4961066a18
 
+#Generar el numero de horas entre dos fechas
+
+def calculateSecondsBetweenDates
+
+Escribe una función para calcular los segundos entre dos fechas en Python
+
+
+Modificar el fichero settings.json
+Copilot chat para generación de test unitarios
+Coipilot chat para refactoiring
+Copilot chat trabaha a nivel de proyecto
+
+https://www.edureka.co/blog/top-prompt-engineering-techniques/
+
+https://patterns.hattori.dev/general/code-completion/
