@@ -15,11 +15,13 @@ Tiempo estimado en complentarse: 5-10 minutos
 
 ## Instrucciones
 
-Se hara uso del fichero de código "refactoring-orig.js"
+Se hará uso del fichero de código "refactoring-orig.js"
 
-Se trata de una pequeña funcionalidad de validación de condiciones de usuarios (mayoría de edad, email correcto y tipo de suscripción)
+Se trata de una pequeña funcionalidad de validación de condiciones de usuarios (mayoría de edad, email correcto y tipo de suscripción) y se ha implementado con malas prácticas (mal estructurado, código con duplicados, etc.)
 
-Nota: Ejemplo de JavaScript
+Nota: Ejemplo se encuentra implementado en JavaScript
+
+La idea es que el código tenga cierta complejidad para que se vea mucho más clara la funcionalidad de explicación de código
 
 ### Forma 1
 
@@ -91,7 +93,11 @@ Verificar que el contexto incluye al fichero con el que se quiere trabajar
 
 #### Paso 4: Ejecutar el GitHub Copilot Chat
 
-Ejecutar el prompt de: Explicar el código del fichero refactoring-orig.js
+Ejecutar el prompt de:
+
+```bash
+Explicar el código del fichero refactoring-orig.js
+```
 
 Se procesará la petición de GitHub Copilot Chat  en la ventana de Chat
 
@@ -121,7 +127,11 @@ Verificar que el contexto incluye al fichero con el que se quiere trabajar
 
 #### Paso 4: Ejecutar el GitHub Copilot Chat
 
-Ejecutar el prompt de: Explicar el código del fichero refactoring-orig.js
+Ejecutar el prompt de:
+
+```bash
+Explicar el código del fichero refactoring-orig.js
+```
 
 Se procesará la petición de GitHub Copilot Chat  en la ventana de Chat
 
@@ -147,7 +157,11 @@ Verificar que el contexto incluye al fichero con el que se quiere trabajar (en m
 
 #### Paso 3: Ejecutar el GitHub Copilot Chat
 
-Ejecutar el prompt de: Explicar el código del fichero refactoring-orig.js
+Ejecutar el prompt de:
+
+```bash
+Explicar el código del fichero refactoring-orig.js
+```
 
 Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
@@ -166,7 +180,6 @@ Esta sería una quinta manera de conseguir manera de conseguirlo
 - Verificar si la sugerencia propuesta se parece a la propuesta en el apartado de solución
 - Verificar cómo de robusto es el código de salida (falta de gestión de errores)
 - Pensar sobre las indicaciones o contexto que se puede añadir para escribir código más preciso
-- Pensar sobre la mejor forma de escribir comentarios para las definiciones de condiciones más complejas
 
 ## Desafio (Opcional)
 
