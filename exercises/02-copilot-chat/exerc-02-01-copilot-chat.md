@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Aprender a utilizar el Copilot Chat desde el panel de Chat
+Aprender a utilizar el Copilot Chat desde su panel
 
 ## Requisitos previos
 
@@ -28,7 +28,9 @@ Crea un API básico en Node.js utilizando el framework Express
 */
 ```
 
-Nota: Ejemplo de JavaScript
+Importante: Todo dependerá del nivel de detalle que se quiera alcanzar en la propuesta de solución
+
+Nota: Se encuentra implementado en JavaScript
 
 ### Paso 1: Abrir el panel de Copilot Chat
 
@@ -42,15 +44,19 @@ Pegar el comentario anterior
 
 Ejecutar
 
-Se procesará la petición de GitHub Copilot Chat  en la ventana de chat
+Se procesará la petición de GitHub Copilot Chat en la ventana de chat
 
 ### Paso 4: Guardar el nuevo fichero
 
-Guardar el nuevo fichero
+Guardar el nuevo fichero de código creado por Copilot Chat
 
-### Paso 5: Ejecutar la propuesta de intalacion
+Se propondrá como nombre del fichero: api.js
 
-Revisar el comando o comandos propuestos
+### Paso 5: Ejecutar la propuesta de instalación
+
+Nota: Github Copilot Chat suele hacer propuestas sobre la instalación de dependencias, etc.
+
+Revisar el comando o comandos de ejecución propuestos
 
 Pulsar sobre continuar
 

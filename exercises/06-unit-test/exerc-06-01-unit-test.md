@@ -37,6 +37,11 @@ Se pueden crear todos los test unitarios de un repositorio, un fichero o sobre u
 
 Siguiendo alguna de las formas que hemos visto tenemos que hacer llegar el código del fichero "calculadora.js" al GitHub Copilot Chat
 
+* Crear el código a partir de un comentario
+* Solicitud a GitHub Copilot Chat
+* Solicitud desde GitHub Copilot Chat InLine
+* ...
+
 #### Paso 1: Ejecutar el GitHub Copilot Chat
 
 Revisar los aspectos de la configuración del Chat
@@ -62,6 +67,11 @@ Esta sería una primera manera de conseguirlo
 ### Forma 2
 
 Siguiendo alguna de las formas que hemos visto tenemos que hacer llegar el código del fichero "calculadora.js" al GitHub Copilot Chat
+
+* Crear el código a partir de un comentario
+* Solicitud a GitHub Copilot Chat
+* Solicitud desde GitHub Copilot Chat InLine
+* ...
 
 #### Paso 1: Ejecutar el GitHub Copilot Chat
 

@@ -19,13 +19,13 @@ Se hará uso del fichero de código "refactoring-orig.js"
 
 Se trata de una pequeña funcionalidad de validación de condiciones de usuarios (mayoría de edad, email correcto y tipo de suscripción) y se ha implementado con malas prácticas (mal estructurado, código con duplicados, etc.)
 
-Nota: Ejemplo se encuentra implementado en JavaScript
+Nota: Se encuentra implementado en JavaScript
 
 La idea es aplicar técnicas de refactoring: nombres descriptivos, extracción de funciones, eliminación de duplicados, reemplazo de estructuras condicionales, etc.
 
 ### Forma 1
 
-#### Paso 1: Seleccionar el fichero de trabajo y cerrar
+#### Paso 1: Seleccionar el fichero de trabajo
 
 Seleccionar el fichero de trabajo "refactoring-orig.js" y abrir el fichero
 
@@ -41,7 +41,7 @@ Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar
 
 Revisar los aspectos de la configuración del Chat
 
-Pegar el código anterior y añadir "Refactorizar el código"
+Pegar el código anterior y añadir "Refactorizar el código" al final del código
 
 Ejecutar
 
@@ -67,7 +67,7 @@ Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar
 
 #### Paso 3: Verificar el contexto
 
-Verificar que el contexto incluye al fichero con el que se quiere trabajar
+Verificar que el contexto incluye el fichero con el que se quiere trabajar (modo adjunto)
 
 #### Paso 4: Ejecutar el GitHub Copilot Chat
 
@@ -77,17 +77,19 @@ Ejecutar el prompt de:
 Refactorizar el código del fichero refactoring-orig.js
 ```
 
+Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
+
 Se procesará la petición de GitHub Copilot Chat  en la ventana de Chat
 
-#### Paso 5: Verificar la explicacion
+#### Paso 5: Verificar la explicación
 
-Se mostrara el resultado en la venta de Chat
+Se mostrará el resultado en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
-Esta sería una segunda manera de conseguir manera de conseguirlo
+Esta sería una segunda manera de conseguirlo
 
 ### Forma 3
 
@@ -97,7 +99,7 @@ Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar
 
 #### Paso 2: Verificar el contexto
 
-Verificar que el contexto incluye al fichero con el que se quiere trabajar (en modo observación)
+Verificar que el contexto incluye al fichero con el que se quiere trabajar (modo observación)
 
 #### Paso 3: Ejecutar el GitHub Copilot Chat
 
@@ -107,17 +109,19 @@ Ejecutar el prompt de:
 Refactorizar el código del fichero refactoring-orig.js
 ```
 
+Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
+
 Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
-#### Paso 4: Verificar la explicacion
+#### Paso 4: Verificar la explicación
 
-Se mostrara el resultado en la venta de Chat
+Se mostrará el resultado en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
-Esta sería una tercera manera de conseguir manera de conseguirlo
+Esta sería una tercera manera de conseguirlo
 
 ## Instrucciones de Refactoring Específico
 

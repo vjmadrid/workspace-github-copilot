@@ -28,7 +28,9 @@ Crea un API básico en Node.js utilizando el framework Express
 */
 ```
 
-Nota: Ejemplo de JavaScript
+Importante: Todo dependerá del nivel de detalle que se quiera alcanzar en la propuesta de solución
+
+Nota: Se encuentra implementado en JavaScript
 
 ### Paso 1: Crear un fichero de trabajo
 
@@ -40,11 +42,13 @@ Ubicarse en el fichero "api2.js"
 
 ### Paso 3: Ejecutar el GitHub Copilot Chat
 
-Sobre el fichero ejecutar el comando de "Editor Inline Chat" Cmd+I
+Sobre el fichero ejecutar el comando de "Editor Inline Chat" (Cmd+I)
 
-Pegar el comentario anterior
+Pegar el comentario anterior en el cuadro de chat
 
 Revisar los aspectos de la configuración del chat
+
+Ejecutar
 
 ### Paso 4: Aceptar la sugerencia
 
