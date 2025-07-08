@@ -115,6 +115,30 @@ Cerramos la venta de Chat
 
 Esta sería una primera manera de conseguirlo
 
+### Forma 4
+
+Seleccionar el código o bien utilizar un código recien generado por el Chat
+
+#### Paso 1: Ejecutar el GitHub Copilot Chat
+
+Ejecutar el prompt de:
+
+```bash
+Generate unit test for the method
+```
+
+Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
+
+#### Paso 2: Verificar los test generados
+
+Revisar
+
+Cerramos la venta de Chat
+
+Esta sería una segunda manera de conseguirlo
+
+
+
 
 ## Consejos
 
