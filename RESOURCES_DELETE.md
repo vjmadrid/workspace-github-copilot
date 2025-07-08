@@ -24,6 +24,9 @@ https://github.com/github/gitignore/blob/main/Python.gitignore
 
 https://medium.com/ixor/github-copilot-ac4961066a18
 
+
+https://www.toolify.ai/es/ai-news-es/impulsa-tu-codificacin-copilot-con-mcp-para-vs-code-3329862#bar2
+
 #Generar el numero de horas entre dos fechas
 
 def calculateSecondsBetweenDates

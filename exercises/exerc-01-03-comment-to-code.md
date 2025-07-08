@@ -2,9 +2,7 @@
 
 ## Objetivo
 
-Aprender a utilizar la finalización de código basada en el texto expecífico proporcionado por el desarrollador
-
-Estas condiciones se definirán en forma de comentarios
+Aprender a utilizar la finalización de código basada en el texto expecífico proporcionado por el desarrollador como comentarios
 
 ## Requisitos previos
 
@@ -17,9 +15,21 @@ Tiempo estimado en complentarse: 5-10 minutos
 
 ## Instrucciones
 
-Escribir los comentarios necesarios para crea una función que calcule la media entre los números de un array
-
 Propuesta de comentarios
+
+Comentario 1
+
+Escribir un único comentario que explique el problema
+
+```bash
+// Una función que calcule la resta de dos números
+```
+
+Comentario 2
+
+Escribir los comentarios necesarios para crea una función
+
+Por ejemplo: calcular la media entre los números de un array
 
 ```bash
 // Function name: calculateAverage
@@ -29,12 +39,39 @@ Propuesta de comentarios
 
 Nota: Ejemplo de JavaScript
 
+### Paso 1: Seleccionar el fichero de trabajo
 
-### Paso 1: Aceptar la sugerencia
+Seleccionar el fichero de trabajo "example.js"
+
+### Paso 2: Escribir el comentario "1"
+
+Escribir el comentario y esperar la sugerencia
+
+### Paso 3: Aceptar la sugerencia
 
 Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
-### Paso 2: Probar la sugerencia
+Revisar
+
+Salvar el fichero
+
+### Paso 4: Probar la sugerencia
+
+Probar la funcion generada con diferentes conjuntos de números y verificar si esta bien
+
+### Paso 5: Escribir el comentario "2"
+
+Escribir el comentario y esperar la sugerencia
+
+### Paso 6: Aceptar la sugerencia
+
+Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
+
+Revisar
+
+Salvar el fichero
+
+### Paso 7: Probar la sugerencia
 
 Probar la funcion generada con diferentes conjuntos de números y verificar si esta bien
 

@@ -20,17 +20,40 @@ Completar la función calculateSum(a, b) utilizando las sugerencias de GitHub Co
 Definiremos la estructura de una función determinada y veremos la sugerencia propuesta
 
 ```bash
-function calculateSum(a, b) {
+function calculateSum(var1, var2) {
     // Enter your code here
 }
 ```
 
 Nota: Ejemplo de JavaScript
 
+### Paso 1: Crear un fichero de trabajo
 
-### Paso 1: Aceptar la sugerencia
+Crear un fichero de nombre "example.js" y verificar que esta vacio
+
+### Paso 2: Crear un fichero de trabajo
+
+En el archivo "example.js", escribir la siguiente declaración de función
+
+```bash
+function calculateSum(var1, var2)
+```
+
+GitHub Copilot sugerirá el cuerpo completo de la función (mostrado en gris o colores apagados)
+
+Nota: Las recomendaciones de código pueden variar
+
+### Paso 3: Aceptar la sugerencia
 
 Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
+
+Revisar
+
+Salvar el fichero
+
+### Paso 4: Probar la sugerencia
+
+Probar la funcion generada con diferentes conjuntos de números y verificar si esta bien
 
 
 ## Consejos
@@ -45,10 +68,12 @@ Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
 ## Solución
 
+Propuesta generada
+
 ```bash
-function calculateSum(a, b) {
+function calculateSum(var1, var2) {
     // Enter your code here
-    const sum = a + b;
+    const sum = var1 + var2;
     return sum;
 }
 ```
