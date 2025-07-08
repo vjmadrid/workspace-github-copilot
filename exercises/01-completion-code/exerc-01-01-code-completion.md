@@ -15,7 +15,7 @@ Tiempo estimado en complentarse: 5-10 minutos
 
 ## Instrucciones
 
-Completar la función calculateSum(a, b) utilizando las sugerencias de GitHub Copilot.
+Completar la función calculateSum(a, b) utilizando las sugerencias de GitHub Copilot
 
 Definiremos la estructura de una función determinada y veremos la sugerencia propuesta
 
@@ -31,9 +31,9 @@ Nota: Ejemplo de JavaScript
 
 Crear un fichero de nombre "example.js" y verificar que esta vacio
 
-### Paso 2: Crear un fichero de trabajo
+### Paso 2: Editar el fichero de trabajo
 
-En el archivo "example.js", escribir la siguiente declaración de función
+En el fichero "example.js", escribir la siguiente declaración de función
 
 ```bash
 function calculateSum(var1, var2)
@@ -49,12 +49,11 @@ Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
 Revisar
 
-Salvar el fichero
+Guardar el fichero
 
 ### Paso 4: Probar la sugerencia
 
 Probar la funcion generada con diferentes conjuntos de números y verificar si esta bien
-
 
 ## Consejos
 
@@ -68,15 +67,7 @@ Probar la funcion generada con diferentes conjuntos de números y verificar si e
 
 ## Solución
 
-Propuesta generada
-
-```bash
-function calculateSum(var1, var2) {
-    // Enter your code here
-    const sum = var1 + var2;
-    return sum;
-}
-```
+Fichero en el directorio /solutions
 
 ## Versionado
 

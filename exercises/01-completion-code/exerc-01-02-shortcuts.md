@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Aprender a utilizar los shortcuts Copilot 
+Aprender a utilizar los shortcuts de GitHub Copilot
 
 ## Requisitos previos
 
@@ -20,34 +20,44 @@ Crear una función en el lenguaje que eligas con el nombre "calculateSecondsBetw
 Para ello escribir el inicio de la función en el lenguaje seleccionado
 
 ```bash
-def calculateSecondsBetweenDates
+function calculateSecondsBetweenDates
 ```
 
-Nota: Ejemplo de Python
+Nota: Ejemplo de Javascript
 
-Verificar que Copilot comienza a proponer
+### Paso 1: Crear un fichero de trabajo
 
-### Paso 1: Aceptar la sugerencia
+Crear un fichero de nombre "example2.py" y verificar que esta vacio
+
+### Paso 2: Editar el fichero de trabajo
+
+En el fichero "example2.py", escribir la siguiente declaración de función
+
+```bash
+function calculateSecondsBetweenDates
+```
+
+### Paso 3: Aceptar la sugerencia
 
 Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
-### Paso 2: Rechazar la sugerencia
+### Paso 4: Rechazar la sugerencia
 
 Borrar el código creado
 
 Repetir los pasos pero esta vez rechazar la sugerencia y ver qué pasa
 
-### Paso 3: Seleccionar la sugerencias
+### Paso 5: Seleccionar la sugerencias
 
 Borrar el código creado
 
 Repetir los pasos pero esta vez desplazarse por las diferentes suferencias y ver qué pasa
 
-### Paso 4: Otros
+### Paso 6: Seleccionar la opción de mostrar varias sugerencias
 
 Borrar el código creado
 
-Repetir los pasos pero esta vez probar otras opciones y ver qué pasa
+Repetir los pasos pero esta vez probando esta opción y ver qué pasa
 
 ## Consejos
 
@@ -59,7 +69,7 @@ N/A
 
 ## Solución
 
-N/A
+Fichero en el directorio /solutions
 
 ## Versionado
 

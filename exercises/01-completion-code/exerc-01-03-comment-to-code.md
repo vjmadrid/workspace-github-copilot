@@ -53,7 +53,7 @@ Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
 Revisar
 
-Salvar el fichero
+Guardar el fichero
 
 ### Paso 4: Probar la sugerencia
 
@@ -69,7 +69,7 @@ Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
 Revisar
 
-Salvar el fichero
+Guardar el fichero
 
 ### Paso 7: Probar la sugerencia
 
@@ -88,15 +88,7 @@ Probar la funcion generada con diferentes conjuntos de números y verificar si e
 
 ## Solución
 
-Propuesta generada
-
-```bash
-function calculateAverage(numbers: number[]): number {
-    // calculate the average of the array
-    const sum = numbers.reduce((a, b) => a + b);
-    return sum / numbers.length;
-}
-```
+Fichero en el directorio /solutions
 
 ## Versionado
 
