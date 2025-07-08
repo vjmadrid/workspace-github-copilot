@@ -30,3 +30,8 @@ function calculateAverage(numbers) {
     const sum = numbers.reduce((acc, num) => acc + num, 0);
     return sum / numbers.length;
 }
+
+console.log('*** Ejemplos de calculateAverage ***');
+console.log(calculateAverage([1, 2, 3, 4, 5])); // Expected output: 3
+console.log(calculateAverage([10, 20, 30])); // Expected output: 20
+console.log(calculateAverage([5, 15, 25])); // Expected output: 15
