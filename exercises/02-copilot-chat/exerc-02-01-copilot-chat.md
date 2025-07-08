@@ -1,8 +1,8 @@
-# Ejercicio: GitHub Copilot Chat - Editor Inline Chat
+# Ejercicio: Usar GitHub Copilot Chat
 
 ## Objetivo
 
-Aprender a utilizar el Copilot Chat
+Aprender a utilizar el Copilot Chat desde el panel de Chat
 
 ## Requisitos previos
 
@@ -18,6 +18,8 @@ Tiempo estimado en complentarse: 5-10 minutos
 
 Crear un API básico en Node.js utilizando el framework popular "Express"
 
+Comentario que define los requerimientos
+
 ```bash
 /*
 Crea un API básico en Node.js utilizando el framework Express
@@ -28,29 +30,41 @@ Crea un API básico en Node.js utilizando el framework Express
 
 Nota: Ejemplo de JavaScript
 
-### Paso 1: Crear un fichero de trabajo
+### Paso 1: Abrir el panel de Copilot Chat
 
-Crear un fichero de nombre "chat.js" y verificar que esta vacio
+Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar sobre atajo de teclado
 
-### Paso 2: Editar el fichero de trabajo
-
-Ubicarse en el fichero "chat.js"
-
-### Paso 3: Ejecutar el GitHub Copilot Chat
-
-Sobre el fichero ejecutar el comando de "Editor Inline Chat" Cmd+I
-
-Pegar el comentario anterior
+### Paso 2: Ejecutar el GitHub Copilot Chat
 
 Revisar los aspectos de la configuración del chat
 
-### Paso 4: Aceptar la sugerencia
+Pegar el comentario anterior
 
-Pulsar sobre Tab para aceptar la sugerencias y ver que pasa
+Ejecutar
 
-Revisar
+Se procesará la petición de GitHub Copilot Chat  en la ventana de chat
 
-Guardar el fichero
+### Paso 4: Guardar el nuevo fichero
+
+Guardar el nuevo fichero
+
+### Paso 5: Ejecutar la propuesta de intalacion
+
+Revisar el comando o comandos propuestos
+
+Pulsar sobre continuar
+
+Verificar que se ha ejecutado este comando en el terminal
+
+Verificar que se han creado ficheros y proyectos de ejecución
+
+### Paso 6: Ejecutar la propuesta de ejecución
+
+Revisar el comando propuesto
+
+Pulsar sobre continuar
+
+Verificar que se encuentra el API desplegado en el endpoint: //http://localhost:3000/
 
 ## Consejos
 
