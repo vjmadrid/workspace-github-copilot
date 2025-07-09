@@ -25,7 +25,7 @@ function calculateSum(var1, var2) {
 }
 ```
 
-Nota: Ejemplo de JavaScript
+Nota: Ejemplo se encuentra implementado en JavaScript
 
 ### Paso 1: Crear un fichero de trabajo
 
@@ -63,7 +63,7 @@ Probar la funcion generada con diferentes conjuntos de números y verificar si e
 
 ## Desafio (Opcional)
 
-- Añadir control de errores
+- Realizar la misma tarea pero con una función diferente, por ejemplo, `calculateProduct(a, b)` para multiplicar dos números
 
 ## Solución
 

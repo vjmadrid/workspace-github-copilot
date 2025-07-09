@@ -23,7 +23,7 @@ Para ello escribir el inicio de la función en el lenguaje seleccionado
 function calculateSecondsBetweenDates
 ```
 
-Nota: Ejemplo de Javascript
+Nota: Ejemplo se encuentra implementado en JavaScript
 
 ### Paso 1: Crear un fichero de trabajo
 
@@ -36,6 +36,8 @@ En el fichero "example2.py", escribir la siguiente declaración de función
 ```bash
 function calculateSecondsBetweenDates
 ```
+
+Nota: Ejemplo se encuentra implementado en JavaScript
 
 ### Paso 3: Aceptar la sugerencia
 

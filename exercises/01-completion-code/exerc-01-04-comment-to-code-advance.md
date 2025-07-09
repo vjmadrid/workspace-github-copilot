@@ -1,10 +1,10 @@
-# Ejercicio: Comentario a Código Avanzado
+# Ejercicio: Comentario a Código "Avanzado"
 
 ## Objetivo
 
 Aprender a utilizar la finalización de código basada en el texto expecífico proporcionado por el desarrollador como comentarios
 
-En este caso se proporcionará un contexto mayor
+En este caso se proporcionará un contexto mayor (mayor número de detalles de lo que se espera conseguir)
 
 ## Requisitos previos
 
@@ -28,7 +28,7 @@ Crea un API básico en Node.js utilizando el framework Express
 */
 ```
 
-Nota: Ejemplo de JavaScript
+Nota: Ejemplo se encuentra implementado en JavaScript
 
 ### Paso 1: Crear un fichero de trabajo
 
@@ -38,7 +38,7 @@ Crear un fichero de nombre "example3.js" y verificar que esta vacio
 
 En el fichero "example3.js", escribir el comentario anterior
 
-GitHub Copilot irá proponiendo las líneas que compondran el API
+GitHub Copilot irá proponiendo las líneas que compondrán el API
 
 Nota: Las recomendaciones de código pueden variar
 

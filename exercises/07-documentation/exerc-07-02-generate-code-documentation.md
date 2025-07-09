@@ -96,7 +96,7 @@ Esta sería una segunda manera de conseguirlo
 
 Seleccionar el fichero de trabajo "refactoring.js" y abrir el fichero
 
-Seleccionar todo el código
+Seleccionar todo el código o parte del código que se quiere documentar
 
 Pulsar sobre el botón derecho "Copilot" -> "Generate Docs"
 
