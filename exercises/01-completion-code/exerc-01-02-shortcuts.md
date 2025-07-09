@@ -27,7 +27,7 @@ Nota: Ejemplo se encuentra implementado en JavaScript
 
 ### Paso 1: Crear un fichero de trabajo
 
-Crear un fichero de nombre "example2.py" y verificar que esta vacio
+Crear un fichero de nombre "example2.py" y verificar que está vacío
 
 ### Paso 2: Editar el fichero de trabajo
 
@@ -63,7 +63,7 @@ Repetir los pasos pero esta vez probando esta opción y ver qué pasa
 
 ## Consejos
 
-- Acceder a la documentación de los shortcuts del editor/IDE qué se vaya a utilizar
+- Acceder a la documentación de los shortcuts del editor/IDE que se vaya a utilizar
 
 ## Desafio (Opcional)
 

@@ -12,9 +12,11 @@ Aprender a utilizar el Copilot Chat en su modo de "Editor Inline Chat"
 
 ## Estimación de tiempo
 
-Tiempo estimado en complentarse: 5-10 minutos
+Tiempo estimado en complentarse: 8-15 minutos
 
 ## Instrucciones
+
+### Caso de uso 1
 
 Crear un API básico en Node.js utilizando el framework popular "Express"
 
@@ -28,19 +30,19 @@ Crea un API básico en Node.js utilizando el framework Express
 */
 ```
 
-Importante: Todo dependerá del nivel de detalle que se quiera alcanzar en la propuesta de solución
+**Importante:** Todo dependerá del nivel de detalle que se quiera alcanzar en la propuesta de solución
 
 Nota: Se encuentra implementado en JavaScript
 
-### Paso 1: Crear un fichero de trabajo
+#### Paso 1: Crear un fichero de trabajo
 
 Crear un fichero de nombre "api2.js" y verificar que esta vacio
 
-### Paso 2: Editar el fichero de trabajo
+#### Paso 2: Editar el fichero de trabajo
 
 Ubicarse en el fichero "api2.js"
 
-### Paso 3: Ejecutar el GitHub Copilot Chat
+#### Paso 3: Ejecutar el GitHub Copilot Chat
 
 Sobre el fichero ejecutar el comando de "Editor Inline Chat" (Cmd+I)
 
@@ -50,9 +52,9 @@ Revisar los aspectos de la configuración del chat
 
 Ejecutar
 
-### Paso 4: Aceptar la sugerencia
+#### Paso 4: Aceptar la sugerencia
 
-Pulsar sobre Tab para aceptar la sugerencias y ver que pasa
+Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
 Revisar
 

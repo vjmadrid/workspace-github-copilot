@@ -11,7 +11,7 @@ Aprender a utilizar la finalización de código basada en el texto expecífico p
 
 ## Estimación de tiempo
 
-Tiempo estimado en complentarse: 5-10 minutos
+Tiempo estimado en complentarse: 5-15 minutos
 
 ## Instrucciones
 
@@ -19,7 +19,7 @@ Se establecerán varias propuestas de formas de crear comentario que sean utiles
 
 **Importante:** Cada tipo de lenguaje de programación tiene su propia forma de escribir comentarios, por lo que es importante que el comentario se adapte al lenguaje de programación que se está utilizando
 
-### Forma 1
+### Caso de uso 1
 
 Escribir un único comentario que explique el problema y proporcione todos los detalles necesarios para que GitHub Copilot pueda generar el código
 
@@ -27,15 +27,15 @@ Escribir un único comentario que explique el problema y proporcione todos los d
 // Una función que calcule la resta de dos números
 ```
 
-### Paso 1: Seleccionar el fichero de trabajo
+#### Paso 1: Seleccionar el fichero de trabajo
 
 Seleccionar el fichero de trabajo "example.js"
 
-### Paso 2: Escribir el comentario
+#### Paso 2: Escribir el comentario
 
 Escribir el comentario y esperar la sugerencia
 
-### Paso 3: Aceptar la sugerencia
+#### Paso 3: Aceptar la sugerencia
 
 Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
@@ -43,18 +43,13 @@ Revisar
 
 Guardar el fichero
 
-### Paso 4: Probar la sugerencia
+#### Paso 4: Probar la sugerencia
 
 Probar la funcion generada con diferentes conjuntos de números y verificar si esta bien
 
-
-### Forma 2
+### Caso de uso 2
 
 Escribir un comentario siguiendo una determinada estructura que permita a GitHub Copilot entender mejor lo que se espera
-
-```bash
-
-Escribir los comentarios necesarios para crea una función
 
 Por ejemplo: calcular la media entre los números de un array
 
@@ -64,15 +59,15 @@ Por ejemplo: calcular la media entre los números de un array
 // Return type of the function: number
 ```
 
-### Paso 1: Seleccionar el fichero de trabajo
+#### Paso 1: Seleccionar el fichero de trabajo
 
 Seleccionar el fichero de trabajo "example.js"
 
-### Paso 2: Escribir el comentario
+#### Paso 2: Escribir el comentario
 
 Escribir el comentario y esperar la sugerencia
 
-### Paso 3: Aceptar la sugerencia
+#### Paso 3: Aceptar la sugerencia
 
 Pulsar sobre Tab para aceptar la sugerencia y ver qué pasa
 
@@ -83,6 +78,28 @@ Guardar el fichero
 ### Paso 5: Probar la sugerencia
 
 Probar la funcion generada con diferentes conjuntos de números y verificar si esta bien
+
+### Caso de uso 3
+
+Usar los comentarios para refinar el código generado por GitHub Copilot
+
+Uno de los usos más comunes de este caso de uso es establecer validaciones o condiciones sobre la entrada de datos dentro de las funciones generadas por GitHub Copilot
+
+Para ello elegir la sección de código a refinar y escribir un comentario que explique lo que se espera
+
+```bash
+// Validar que el array no esté vacío antes de calcular la media
+```
+
+Se debería de llegar a algo como lo siguiente:
+
+```bash
+// Validar que el array no esté vacío antes de calcular la media
+if (numbers.length === 0) {
+    throw new Error('El array está vacío');
+}
+```
+
 
 ## Consejos
 
