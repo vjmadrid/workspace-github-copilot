@@ -33,7 +33,7 @@ Una vez tengamos el código aprenderemos a crear los test unitarios
 
 Se pueden crear todos los test unitarios de un repositorio, un fichero o sobre un código determinado
 
-### Forma 1
+### Caso de uso 1
 
 Siguiendo alguna de las formas que hemos visto tenemos que hacer llegar el código del fichero "calculadora.js" al GitHub Copilot Chat
 
@@ -52,11 +52,13 @@ Cargar el prompt:
 "Generar test unitarios"
 ```
 
+**Importante:** El nivel de detalle determinará la calidad de los test generados
+
 Ejecutar
 
 Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
-#### Paso 4: Verificar los test generados
+#### Paso 2: Verificar los test generados
 
 Revisar
 
@@ -64,7 +66,7 @@ Cerramos la venta de Chat
 
 Esta sería una primera manera de conseguirlo
 
-### Forma 2
+### Caso de uso 2
 
 Siguiendo alguna de las formas que hemos visto tenemos que hacer llegar el código del fichero "calculadora.js" al GitHub Copilot Chat
 
@@ -95,7 +97,7 @@ Cerramos la venta de Chat
 
 Esta sería una segunda manera de conseguirlo
 
-### Forma 3
+### Caso de uso 3
 
 #### Paso 1: Seleccionar el fichero de trabajo
 
@@ -135,7 +137,7 @@ Revisar
 
 Cerramos la venta de Chat
 
-Esta sería una segunda manera de conseguirlo
+Esta sería una tercera manera de conseguirlo
 
 
 

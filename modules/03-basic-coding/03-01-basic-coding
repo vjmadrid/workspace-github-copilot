@@ -1,6 +1,13 @@
 
 
+## Instructions
 
+### Step 1: Basic Function Creation
+1. Create a new file called `calculator.py`
+2. Type a comment describing a function to add two numbers
+3. Let Copilot suggest the implementation and press Tab to accept
+4. Repeat for a function to multiply two numbers
+5. Add input validation by commenting about validating inputs
 
 ### Step 2: Documentation Generation
 1. Position your cursor above one of your functions
