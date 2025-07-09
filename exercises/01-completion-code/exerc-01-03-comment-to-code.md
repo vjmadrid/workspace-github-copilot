@@ -83,9 +83,15 @@ Probar la funcion generada con diferentes conjuntos de números y verificar si e
 
 Usar los comentarios para refinar el código generado por GitHub Copilot
 
-Uno de los usos más comunes de este caso de uso es establecer validaciones o condiciones sobre la entrada de datos dentro de las funciones generadas por GitHub Copilot
+Escenarios de ejecución de este caso de uso:
+
+* Establecer validaciones o condiciones sobre la entrada de datos dentro de las funciones generadas por GitHub Copilot
+* Manejar errores de manera más efectiva
+* Etc.
 
 Para ello elegir la sección de código a refinar y escribir un comentario que explique lo que se espera
+
+Por ejemplo, si se quiere validar que el array no esté vacío antes de calcular la media, se podría escribir un comentario como el siguiente:
 
 ```bash
 // Validar que el array no esté vacío antes de calcular la media

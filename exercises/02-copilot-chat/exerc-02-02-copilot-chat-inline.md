@@ -42,7 +42,7 @@ Crear un fichero de nombre "api2.js" y verificar que esta vacio
 
 Ubicarse en el fichero "api2.js"
 
-#### Paso 3: Ejecutar el GitHub Copilot Chat
+#### Paso 3: Ejecutar el GitHub Copilot Chat Inline
 
 Sobre el fichero ejecutar el comando de "Editor Inline Chat" (Cmd+I)
 

@@ -1,8 +1,8 @@
-# Ejercicio: Usar GitHub Copilot Chat para explicar código
+# Ejercicio: Usar GitHub Copilot Chat para corregir errores de código
 
 ## Objetivo
 
-Aprender a utilizar la funcionalidad de explicación de código del Copilot Chat
+Aprender a utilizar la funcionalidad de trabajar (detectar y/o corregir) con errores de código del Copilot Chat
 
 ## Requisitos previos
 
@@ -21,7 +21,7 @@ Se trata de una pequeña funcionalidad de validación de condiciones de usuarios
 
 Nota: Se encuentra implementado en JavaScript
 
-La idea es que el código tenga cierta dificultad para que se vea mucho más clara la funcionalidad de explicación de código
+La idea es aplicar técnicas de refactoring: nombres descriptivos, extracción de funciones, eliminación de duplicados, reemplazo de estructuras condicionales, etc.
 
 ### Caso de uso 1
 
@@ -29,7 +29,7 @@ La idea es que el código tenga cierta dificultad para que se vea mucho más cla
 
 Seleccionar el fichero de trabajo "refactoring-orig.js" y abrir el fichero
 
-Seleccionar todo el código y copiarlo
+Seleccionar todo el código y copiar
 
 Cerrar la pestaña del fichero
 
@@ -41,14 +41,13 @@ Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar
 
 Revisar los aspectos de la configuración del Chat
 
-Pegar el código anterior y añadir "Explicar el código" al final del código
+Pegar el código anterior y añadir "Corregir errores de código" al final del código
 
 Ejecutar
 
 Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
-#### Paso 4: Verificar la explicación
-
+#### Paso 4: Verificar la corrección
 Revisar
 
 Cerramos la venta de Chat
@@ -60,28 +59,6 @@ Esta sería una primera manera de conseguirlo
 #### Paso 1: Seleccionar el fichero de trabajo
 
 Seleccionar el fichero de trabajo "refactoring-orig.js" y abrir el fichero
-
-Seleccionar todo el código
-
-Pulsar botón derecho "Copilot" -> "Explain"
-
-#### Paso 2: Verificar la explicacion
-
-Se mostrara el resultado en la venta de Chat (normalmente se hara´en Inglés)
-
-Revisar
-
-Cerramos la venta de Chat
-
-Esta sería una segunda manera de conseguirlo
-
-### Caso de uso 3
-
-#### Paso 1: Seleccionar el fichero de trabajo
-
-Seleccionar el fichero de trabajo "refactoring-orig.js"
-
-Pulsar sobre el botón derecho "Copilot" -> "Add File to Chat"
 
 #### Paso 2: Abrir el panel de Copilot Chat
 
@@ -96,24 +73,24 @@ Verificar que el contexto incluye el fichero con el que se quiere trabajar (modo
 Ejecutar el prompt de:
 
 ```bash
-Explicar el código del fichero refactoring-orig.js
+Corregir errores de código del fichero refactoring-orig.js
 ```
 
 Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
 
-Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
+Se procesará la petición de GitHub Copilot Chat  en la ventana de Chat
 
-#### Paso 5: Verificar la explicación
+#### Paso 5: Verificar la corrección
 
-Se mostrara el resultado en la venta de Chat
+Se mostrará el resultado en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
-Esta sería una tercera manera de conseguirlo
+Esta sería una segunda manera de conseguirlo
 
-### Forma 4
+### Caso de uso 3
 
 #### Paso 1: Seleccionar el fichero de trabajo
 
@@ -125,53 +102,21 @@ Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar
 
 #### Paso 3: Verificar el contexto
 
-Verificar que el contexto incluye el fichero con el que se quiere trabajar (modo observación)
+Verificar que el contexto incluye el fichero con el que se quiere trabajar (modo adjunto)
 
 #### Paso 4: Ejecutar el GitHub Copilot Chat
 
 Ejecutar el prompt de:
 
 ```bash
-Explicar el código del fichero refactoring-orig.js
+/fix
 ```
 
 Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
 
-Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
+Se procesará la petición de GitHub Copilot Chat  en la ventana de Chat
 
-#### Paso 5: Verificar la explicación
-
-Se mostrará el resultado en la ventana de Chat
-
-Revisar
-
-Cerramos la venta de Chat
-
-Esta sería una cuarta manera de conseguirlo
-
-### Forma 5
-
-#### Paso 1: Abrir el panel de Copilot Chat
-
-Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar sobre atajo de teclado
-
-#### Paso 2: Verificar el contexto
-
-Añadir el fichero de código "refactoring-orig.js" al contexto del Chat
-
-#### Paso 3: Ejecutar el GitHub Copilot Chat
-
-Ejecutar el prompt de:
-
-```bash
-Explicar el código del fichero refactoring-orig.js
-```
-
-Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
-
-Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
-
-#### Paso 4: Verificar la explicación
+#### Paso 5: Verificar la corrección
 
 Se mostrará el resultado en la ventana de Chat
 
@@ -179,7 +124,60 @@ Revisar
 
 Cerramos la ventana de Chat
 
+Esta sería una tercera manera de conseguirlo
+
+### Caso de uso 4
+
+#### Paso 1: Abrir el panel de Copilot Chat
+
+Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar sobre atajo de teclado
+
+#### Paso 2: Verificar el contexto
+
+Verificar que el contexto incluye al fichero con el que se quiere trabajar (modo observación)
+
+#### Paso 3: Ejecutar el GitHub Copilot Chat
+
+Ejecutar el prompt de:
+
+```bash
+Corregir el código del fichero refactoring-orig.js
+```
+
+Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
+
+Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
+
+#### Paso 4: Verificar la corrección
+
+Se mostrará el resultado en la ventana de Chat
+
+Revisar
+
+Cerramos la ventana de Chat
+
+Esta sería una cuarta manera de conseguirlo
+
+### Caso de uso 5
+
+#### Paso 1: Seleccionar el fichero de trabajo
+
+Seleccionar el fichero de trabajo "refactoring-orig.js" y abrir el fichero
+
+Seleccionar todo el código
+
+Pulsar botón derecho "Copilot" -> "Fix"
+
+#### Paso 2: Verificar la corrección
+
+Se mostrará el resultado en la ventana de Chat (normalmente se hará en Inglés)
+
+Revisar
+
+Cerramos la ventana de Chat
+
 Esta sería una quinta manera de conseguirlo
+
 
 ## Consejos
 
