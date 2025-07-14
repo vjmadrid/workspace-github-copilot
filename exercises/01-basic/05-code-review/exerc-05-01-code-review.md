@@ -1,8 +1,8 @@
-# Ejercicio: Usar GitHub Copilot Chat para refactorizar el código
+# Ejercicio: Revisar el código con GitHub Copilot Chat
 
 ## Objetivo
 
-Aprender a utilizar la funcionalidad de refactoring de código del Copilot Chat
+Aprender a utilizar la funcionalidad de code review de GitHub Copilot Chat para mejorar el código existente
 
 ## Requisitos previos
 
@@ -41,15 +41,15 @@ Pulsar sobre el icono de Copilot Chat desde la interfaz del editor o bien pulsar
 
 Revisar los aspectos de la configuración del Chat
 
-Pegar el código anterior y añadir "Refactorizar el código" al final del código
+Pegar el código anterior y añadir "Revisar el código" al final del código
 
 Ejecutar
 
 Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
-#### Paso 4: Verificar el código refactorizado
+#### Paso 4: Verificar la revisión
 
-Revisar
+Revisar la respuesta
 
 Cerramos la ventana de Chat
 
@@ -74,18 +74,16 @@ Verificar que el contexto incluye el fichero con el que se quiere trabajar (modo
 Ejecutar el prompt de:
 
 ```bash
-Refactorizar el código del fichero refactoring-orig.js
+Revisar el código del fichero refactoring-orig.js
 ```
 
 Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
 
-Se procesará la petición de GitHub Copilot Chat  en la ventana de Chat
+Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
-#### Paso 5: Verificar la explicación
+#### Paso 4: Verificar la revisión
 
-Se mostrará el resultado en la ventana de Chat
-
-Revisar
+Revisar la respuesta
 
 Cerramos la ventana de Chat
 
@@ -106,7 +104,7 @@ Verificar que el contexto incluye al fichero con el que se quiere trabajar (modo
 Ejecutar el prompt de:
 
 ```bash
-Refactorizar el código del fichero refactoring-orig.js
+Revisar el código del fichero refactoring-orig.js
 ```
 
 Nota: Todo dependerá del nivel de detalle que se quiera alcanzar en el prompt
@@ -123,32 +121,26 @@ Cerramos la ventana de Chat
 
 Esta sería una tercera manera de conseguirlo
 
-## Instrucciones de Refactoring Específico
+### Caso de uso 4
 
-Se utilizará el mismo recurso que en el de "Refactoring General"
+#### Paso 1: Seleccionar el fichero de trabajo
 
-La idea en este apartado es aplicar una regla de refactoring concreta
+Seleccionar el fichero de trabajo "refactoring-orig.js" y abrir el fichero
 
-Para ello utilizar cualquiera de las formas anteriores pero en el prompt detallar la regla que se quiere aplicar
+Seleccionar todo el código
 
-```bash
-Refactorizar el código del fichero refactoring-orig.js con la regla {regla}
-```
+#### Paso 2: Abrir el panel de Copilot Chat
 
-Sustituir {regla} por la regla en cuestión
+Pulsar sobre el botón derecho del ratón y seleccionar "Copilot" -> "Review and Comment"
 
-Probar ideas:
+#### Paso 3: Verificar la revisión
 
-* Preguntar si alguna parte del codigo incumple la regla
-* Seleccionar el código y crear un chat inline y pedir aplicar la regla
-* ...
+Revisar la respuesta
 
+Cerramos la ventana de Chat
 
-## Consejos
+Esta sería una cuarta manera de conseguirlo
 
-- Verificar si la sugerencia propuesta se parece a la propuesta en el apartado de solución
-- Verificar cómo de robusto es el código de salida (falta de gestión de errores)
-- Pensar sobre las indicaciones o contexto que se puede añadir para escribir código más preciso
 
 ## Desafio (Opcional)
 

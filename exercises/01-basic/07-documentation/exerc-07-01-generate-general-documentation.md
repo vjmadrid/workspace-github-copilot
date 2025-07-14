@@ -39,7 +39,7 @@ Crea el código usando alguna de las estrategias que ya has visto:
 Crear el fichero "document.md"
 
 
-### Forma 1
+### Caso de uso 1
 
 Acceder al fichero "document.md"
 
@@ -57,11 +57,11 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una primera manera de conseguirlo
 
-### Forma 2
+### Caso de uso 2
 
 #### Paso 1: Ejecutar el GitHub Copilot Chat
 
@@ -73,7 +73,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una segunda manera de conseguirlo
 

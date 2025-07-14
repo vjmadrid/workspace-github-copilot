@@ -50,7 +50,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 #### Paso 4: Verificar la corrección
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una primera manera de conseguirlo
 

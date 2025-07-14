@@ -51,7 +51,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una primera manera de conseguirlo
 
@@ -67,11 +67,11 @@ Pulsar botón derecho "Copilot" -> "Explain"
 
 #### Paso 2: Verificar la explicacion
 
-Se mostrara el resultado en la venta de Chat (normalmente se hara´en Inglés)
+Se mostrara el resultado en la ventana de Chat (normalmente se hara´en Inglés)
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una segunda manera de conseguirlo
 
@@ -105,15 +105,15 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 #### Paso 5: Verificar la explicación
 
-Se mostrara el resultado en la venta de Chat
+Se mostrara el resultado en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una tercera manera de conseguirlo
 
-### Forma 4
+### Caso de uso 4
 
 #### Paso 1: Seleccionar el fichero de trabajo
 
@@ -145,11 +145,11 @@ Se mostrará el resultado en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una cuarta manera de conseguirlo
 
-### Forma 5
+### Caso de uso 5
 
 #### Paso 1: Abrir el panel de Copilot Chat
 

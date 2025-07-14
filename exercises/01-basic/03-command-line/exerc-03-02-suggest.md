@@ -19,7 +19,7 @@ Tiempo estimado en complentarse: 5-10 minutos
 
 ### Caso de uso 1
 
-Explicar un comando desde la línea de comandos (CLI) utilizando GitHub Copilot
+Realizar sugerencias sobre dudas que se puede tener
 
 #### Paso 1: Arrancar la terminal
 

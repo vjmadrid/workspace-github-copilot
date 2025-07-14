@@ -62,7 +62,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una primera manera de conseguirlo
 
@@ -93,7 +93,7 @@ Por ejemplo: elegir el framework de testing, la forma de instalarlo, etc.
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una segunda manera de conseguirlo
 
@@ -113,11 +113,11 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una primera manera de conseguirlo
 
-### Forma 4
+### Caso de uso 4
 
 Seleccionar el código o bien utilizar un código recien generado por el Chat
 
@@ -137,7 +137,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una tercera manera de conseguirlo
 

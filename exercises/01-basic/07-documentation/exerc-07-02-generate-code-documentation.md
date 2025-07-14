@@ -58,7 +58,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una primera manera de conseguirlo
 
@@ -90,7 +90,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una segunda manera de conseguirlo
 
@@ -112,7 +112,7 @@ Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una tercera manera de conseguirlo
 
@@ -153,7 +153,7 @@ Ejecutar
 
 Revisar
 
-Cerramos la venta de Chat
+Cerramos la ventana de Chat
 
 Esta sería una cuarta manera de conseguirlo
 
