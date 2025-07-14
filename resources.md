@@ -17,24 +17,22 @@
 * [Git Official Documentation](https://git-scm.com/doc)
 
 
-### Microsoft Learn 
+### Microsoft Learn
 
-| Title | Level | Description |
+| Titulo | Nivel | Descripción |
 |---|---|---|
-| [Using advanced GitHub Copilot features](https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/) | Beginner |  |
-| [Using GitHub Copilot with JavaScript](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/) | Beginner |  |
-| [Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/) | Beginner |  |
-| [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) | Intermediate |  |
-| [Generate documentation using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/) | Intermediate |  |
-| [Develop code features using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-code-features-using-github-copilot-tools/) | Intermediate |  |
-| [Implement code improvements using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/implement-code-improvements-using-github-copilot-tools/) | Intermediate |  |
-| [Building applications with GitHub Copilot agent mode](https://learn.microsoft.com/training/modules/github-copilot-agent-mode/) | Intermediate |  |
+| [Using advanced GitHub Copilot features](https://learn.microsoft.com/en-us/training/modules/advanced-github-copilot/) | Principiante  |  |
+| [Using GitHub Copilot with JavaScript](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-javascript/) | Principiante |  |
+| [Using GitHub Copilot with Python](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-python/) | Principiante |  |
+| [Developer use cases for AI with GitHub Copilot](https://learn.microsoft.com/en-us/training/modules/developer-use-cases-for-ai-with-github-copilot/) | Intermedio |  |
+| [Generate documentation using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/generate-documentation-using-github-copilot-tools/) | Intermedio |  |
+| [Develop code features using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/develop-code-features-using-github-copilot-tools/) | Intermedio |  |
+| [Implement code improvements using GitHub Copilot tools](https://learn.microsoft.com/en-us/training/modules/implement-code-improvements-using-github-copilot-tools/) | Intermedio |  |
+| [Building applications with GitHub Copilot agent mode](https://learn.microsoft.com/training/modules/github-copilot-agent-mode/) | Intermedio |  |
 
-### Learning GitHub Repositories
- 
-A collection of public workshops offering practical content and interactive exercises:
+### Aprendiendo de Repositorios GitHub
 
-| Repository | Description |
+| Repositorio | Descripción |
 |------------|-------------|
 | [Migrating a Python API to Rust with GitHub Copilot](https://github.com/microsoft/github-copilot-migrating-languages/tree/main) | Use GitHub Copilot to migrate an application from one programming language to another. |
 | [Upgrading a Python project with GitHub Copilot](https://github.com/microsoft/github-copilot-upgrading) | Upgrade a legacy Python project with GitHub Copilot. |

@@ -25,7 +25,14 @@ function calculateSum(var1, var2) {
 }
 ```
 
+Según el lenguaje de programación, especificar el tipo de datos de los parámetros y el tipo de retorno de la función puede ayudar a GitHub Copilot a generar un código más preciso
+
 Nota: Ejemplo se encuentra implementado en JavaScript
+
+En este caso, toda la información del contexto vendrá dada por la estructura de la función y el nombre descriptivo de sus elementos
+
+> Importante: El uso de un nombre descriptivo para una función se considera la primera técnica de prompting para GitHub Copilot
+
 
 ### Paso 1: Crear un fichero de trabajo
 

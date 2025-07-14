@@ -1,0 +1,7 @@
+services:
+  time:
+    image: mcp/time
+
+  postgres:
+    image: mcp/postgres
+    command: postgresql://postgres:test@host.docker.internal:5432/postgres

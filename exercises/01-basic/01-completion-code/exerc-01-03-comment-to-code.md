@@ -11,7 +11,7 @@ Aprender a utilizar la finalización de código basada en el texto expecífico p
 
 ## Estimación de tiempo
 
-Tiempo estimado en complentarse: 5-15 minutos
+Tiempo estimado en complentarse: 10-20 minutos
 
 ## Instrucciones
 
@@ -81,6 +81,30 @@ Probar la funcion generada con diferentes conjuntos de números y verificar si e
 
 ### Caso de uso 3
 
+Usar los comentarios con determinada estructura para ayudar con determinados desarrollos como pueden ser las expresiones regulares
+
+Ejemplo 1: Expresion regular para extraer las letras mayúsculas de una cadena de texto
+
+```bash
+// Escribir una expresión regular
+// - Input: "Hello World"
+// - Output: ["H", "W"]
+```
+
+Ejemplo 2: Expresion regular para validar un email
+
+```bash
+// Expresión regular para validar un email
+// - Debe comenzar con letras, números, puntos, guiones o guiones bajos
+// - Debe contener un símbolo '@'
+// - Debe contener un dominio con al menos un punto
+// - El dominio debe tener al menos dos caracteres
+```
+
+> Importante: Este tipo de comentarios se suelen considerar otra técnica de prompting para GitHub Copilot, ya que permite a la IA entender mejor el contexto y generar código más preciso.
+
+### Caso de uso 4
+
 Usar los comentarios para refinar el código generado por GitHub Copilot
 
 Escenarios de ejecución de este caso de uso:
@@ -106,6 +130,28 @@ if (numbers.length === 0) {
 }
 ```
 
+### Caso de uso 5
+
+Usar JSDoc para proporcionar información de tipo y documentación puede ser otra opción. Esta estrategia dependera del lenguaje de programación que se esté utilizando, ya que no todos los lenguajes soportan JSDoc de la misma manera.
+
+```bash
+// JSDoc para una función que filtra productos por categoría
+
+/**
+ * @typedef {Object} Product
+ * @property {string} id - Unique product identifier
+ * @property {string} name - Product name
+ * @property {number} price - Product price
+ * @property {string[]} categories - Product categories
+ */
+
+/**
+ * Filters products by a specific category
+ * @param {Product[]} products - Array of product objects
+ * @param {string} category - Category to filter by
+ * @returns {Product[]} Filtered product array
+ */
+```
 
 ## Consejos
 

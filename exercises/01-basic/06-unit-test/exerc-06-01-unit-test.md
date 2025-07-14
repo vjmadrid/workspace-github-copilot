@@ -52,7 +52,7 @@ Cargar el prompt:
 "Generar test unitarios"
 ```
 
-**Importante:** El nivel de detalle determinará la calidad de los test generados
+**Importante:** El nivel de detalle determinará la calidad de los test generados, se podrian pedir detalles como el framework, la cantidad de tests, los casos válidos, los casos inválidos, los casos de error, etc.
 
 Ejecutar
 
@@ -128,6 +128,8 @@ Ejecutar el prompt de:
 ```bash
 Generate unit test for the method
 ```
+
+**Importante:** El nivel de detalle determinará la calidad de los test generados, se podrian pedir detalles como el framework, la cantidad de tests, los casos válidos, los casos inválidos, los casos de error, etc.
 
 Se procesará la petición de GitHub Copilot Chat en la ventana de Chat
 

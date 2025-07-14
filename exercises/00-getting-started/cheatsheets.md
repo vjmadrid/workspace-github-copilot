@@ -15,9 +15,9 @@
 
 | Comando | Descripción |
 |---------|-------------|
-| `gh copilot explain` | Get an explanation of code |
-| `gh copilot suggest` | Generate code suggestions |
-| `gh copilot gh` | Get help using GitHub CLI |
+| `gh copilot explain` | Obtiene una explicación del código |
+| `gh copilot suggest` | Genera sugerencias de código |
+| `gh copilot gh` | Obtiene ayuda sobre el uso de GitHub CLI |
 
 ## Comandos para GitHub Copilot Chat
 
@@ -30,12 +30,3 @@
 | `/explain` | Explicar codigo o coneptos |
 | `/optimize` | Optimizar el código para mejorar el rendimiento |
 | `/vulnerability` | Verificar vulnerabilidades |
-
-## VS Code Editor Tips
-
-| Tip | Descripción |
-|-----|-------------|
-| Add comments above your code | Provide context for better suggestions |
-| Write function signatures | Let Copilot implement the body |
-| Use descriptive variable names | Improves Copilot's understanding |
-| Define test cases first | Get Copilot to implement passing code |
