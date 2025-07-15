@@ -2,7 +2,9 @@
 
 ## Objetivo
 
-Aprender a utilizar la finalización de código
+Aprender a utilizar servidores de MCP
+
+En este caso se utilizará uno relacionado con la plataforma GitHub
 
 ## Requisitos previos
 
@@ -42,10 +44,10 @@ Elegir la opción "NPX Package"
 Proporcionar la localización del paquete del servidor MCP
 
 ```bash
-'@modelcontextprotocol/server-github
+@modelcontextprotocol/server-github
 ```
 
-Seguir las instrucciones para instalar el paquete, proporcionando un nombre / identificador, etc.
+Seguir las instrucciones para instalar el paquete, proporcionando un nombre/identificador, etc.
 
 Visualizar la configuración del servidor MCP en el fichero de configuración de VS Code (settings.json)
 
