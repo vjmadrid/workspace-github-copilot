@@ -155,6 +155,11 @@ Usar JSDoc para proporcionar información de tipo y documentación puede ser otr
 
 ## Consejos
 
+- Utilizar comentarios claros y concisos que describan el problema o la tarea a realizar
+- Utilizar un lenguaje natural
+- Probar con diferentes tipos de prompts si no estamos contentos con el resultado
+- Encontrar la forma de escribir comentarios de este tipo con la que nos sentimos más cómodos
+- Dedicar tiempo a analizar y validar las sugerencias
 - Verificar si la sugerencia propuesta se parece a la propuesta en el apartado de solución
 - Verificar cómo de robusto es el código de salida (falta de gestión de errores)
 - Pensar sobre las indicaciones o contexto que se puede añadir para escribir código más preciso

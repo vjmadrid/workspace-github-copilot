@@ -64,6 +64,7 @@ Probar la funcion generada con diferentes conjuntos de números y verificar si e
 
 ## Consejos
 
+- Utilizar nombre muy descriptivos
 - Verificar si la sugerencia propuesta se parece a la propuesta en el apartado de solución
 - Verificar cómo de robusto es el código de salida (falta de gestión de errores)
 - Pensar sobre las indicaciones o contexto que se pueden añadir para escribir código más preciso

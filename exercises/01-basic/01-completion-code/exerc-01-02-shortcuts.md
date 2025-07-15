@@ -63,6 +63,7 @@ Repetir los pasos pero esta vez probando esta opción y ver qué pasa
 
 ## Consejos
 
+- Dedicar tiempo a analizar y validar las sugerencias
 - Acceder a la documentación de los shortcuts del editor/IDE que se vaya a utilizar
 
 ## Desafio (Opcional)
