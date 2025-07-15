@@ -510,7 +510,7 @@ tmp/
 temp/
 
 # Project specific
-*.pdf
+# *.pdf
 !OReilly*Reg*Page*.pdf
 *.docx
 *.xlsx
