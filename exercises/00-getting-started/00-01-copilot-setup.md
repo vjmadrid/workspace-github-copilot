@@ -1,4 +1,4 @@
-# Ejercicio: Finalización de código
+# Ejercicio: Configuración de GitHub Copilot
 
 ## Objetivo
 
