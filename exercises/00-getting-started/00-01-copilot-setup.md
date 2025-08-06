@@ -39,7 +39,7 @@ Instalar el IDE Visual Studio Code
 
 Verificar que VS Code se encuentra actualizado
 
-### Paso 2: Instalar Copilot en VS Code
+### Paso 3: Instalar Copilot en VS Code
 
 Abrir VS Code
 Ir a Extensiones (Ctrl+Shift+X o Cmd+Shift+X)
