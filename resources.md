@@ -11,6 +11,8 @@
 * [GitHub Copilot CLI](https://githubnext.com/projects/copilot-cli/)
 * [GitHub Copilot for Pull Requests](https://github.blog/2023-11-08-github-copilot-in-the-cli-now-in-public-beta/)
 * [GitHub Copilot Shortcuts](/resources/cheatsheets/copilot-shortcuts.md)
+* [Awesome GitHub Copilot](https://github.com/github/awesome-copilot
+
 
 ## Cliente Git
 
