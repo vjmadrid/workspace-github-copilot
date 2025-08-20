@@ -13,7 +13,6 @@
 * [GitHub Copilot Shortcuts](/resources/cheatsheets/copilot-shortcuts.md)
 * [Awesome GitHub Copilot](https://github.com/github/awesome-copilot)
 
-
 ## Cliente Git
 
 * [Git Official Documentation](https://git-scm.com/doc)
