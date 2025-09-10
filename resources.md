@@ -17,7 +17,6 @@
 
 * [Git Official Documentation](https://git-scm.com/doc)
 
-
 ## Microsoft Learn
 
 | Titulo | Nivel | Descripción |
@@ -45,3 +44,8 @@
 | [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript) | Join a time-traveling adventure where you meet history’s legends while learning Generative AI technologies! |
 | [Web Dev for Beginners](https://aka.ms/webdev-beginners) | 24 Lessons, 12 Weeks, Get Started as a Web Developer. |
 | [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures) | Copilot coding adventures. |
+
+
+https://github.com/microsoft/ai-agents-for-beginners/tree/main/00-course-setup
+https://paulsorensen.io/github-copilot-vscode-privacy/
+https://github.com/humanlayer/12-factor-agents

@@ -1,2 +1,1 @@
 # workspace-github-copilot
-
