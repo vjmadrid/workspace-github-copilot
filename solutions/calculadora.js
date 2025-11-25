@@ -19,6 +19,8 @@ function dividir(a, b) {
   return a / b;
 }
 
+
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
