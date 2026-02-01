@@ -4,6 +4,8 @@
 
 Este proyecto consiste en una calculadora básica implementada en JavaScript. El programa permite realizar operaciones matemáticas simples: suma, resta, multiplicación y división. El usuario interactúa con la calculadora a través de la consola, ingresando los números y la operación deseada. El resultado se muestra también en la consola.
 
+El stack tecnológico utilizado incluye Node.js para la ejecución del código JavaScript en un entorno de consola.
+
 ## Características Principales
 
 - **Operaciones soportadas:**
@@ -111,20 +113,3 @@ function main() {
 
 main();
 ```
-
-## Requisitos
-
-- Node.js instalado en el sistema.
-
-## Ejecución
-
-Para ejecutar el programa, usa el siguiente comando en la terminal:
-
-```
-node calculadora.js
-```
-
-## Autor
-
-- [Tu Nombre]
-# workspace-github-copilot

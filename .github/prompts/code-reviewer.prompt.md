@@ -1,5 +1,5 @@
 ---
-mode: security-scout
+agent: security-scout
 description: "Genera una revision de la seguridad del código"
 ---
 
