@@ -2,6 +2,7 @@
 ## General Guidelines
 - Keep the code simple and readable.
 - Use Prettier for code formatting.
+  
 ## JavaScript
 - Use `const` and `let` instead of `var`.
 - Prefer arrow functions for anonymous functions.
