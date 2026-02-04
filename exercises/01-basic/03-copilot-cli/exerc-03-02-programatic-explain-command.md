@@ -8,6 +8,7 @@ Aprender a utilizar la explicación de comandos desde la línea de comandos (CLI
 
 - Cuenta de GitHub con acceso a Copilot de pago
 - GitHub Copilot CLI instalado y configurado
+- Política de organización habilitada si se usa a través de una organización
 - Conocimiento básico de la línea de comandos
 - Terminal o línea de comandos
 

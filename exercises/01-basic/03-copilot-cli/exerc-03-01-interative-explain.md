@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Aprender a utilizar el modo interactivo de Git
+Aprender a utilizar el modo interactivo de GitHub Copilot CLI
 
 ## Requisitos previos
 

@@ -1,0 +1,14 @@
+{
+  "name": "basic-express-api",
+  "version": "1.0.0",
+  "description": "A basic Express API that responds with a greeting message.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -109,26 +109,3 @@ Fichero en el directorio /solutions
 ## Autor
 
 * **knowmad mood**
-
-
-
-
-
-## Instructions
-
-
-
-
-
-
-
-## Expected Outcome
-You should have GitHub Copilot successfully installed and providing code suggestions based on your comments.
-
-## Tips
-- If you don't see suggestions, check that Copilot is enabled in VS Code settings
-- Try typing function signatures to see how Copilot implements them
-- Comments provide important context for Copilot's suggestions
-
-## Challenge (Optional)
-Try using Copilot to implement a sorting algorithm by just providing appropriate comments and function signatures.

@@ -8,6 +8,7 @@ Aprender a utilizar GitHub Copilot CLI en modo programático para sugerir comand
 
 - Cuenta de GitHub con acceso a Copilot de pago
 - GitHub Copilot CLI instalado y configurado
+- Política de organización habilitada si se usa a través de una organización
 - Conocimiento básico de la línea de comandos
 - Terminal o línea de comandos
 
