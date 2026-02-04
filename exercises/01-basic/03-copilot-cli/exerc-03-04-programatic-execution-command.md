@@ -69,6 +69,7 @@ copilot -p "Muestrame el uso de disco del sistema"
 copilot -p "Genera un informe del uso de memoria del sistema"
 
 # *** Operaciones del control de versiones ***
+copilot -p "Show me this week's Git commits and summarize them" --allow-tool 'shell(git)'
 copilot -p "Crea una nueva rama llamada 'feature-x' y haz checkout a ella"
 copilot -p "Comitea todos los cambios con el mensaje 'Actualización de documentación'"
 copilot -p "Revierte el último commit sin perder los cambios en el working directory"
@@ -81,17 +82,7 @@ copilot -p "Lista todos los issues abiertos asignados a mi usuario en OWNER/REPO
 
 Ejecutar un comando desde la línea de comandos (CLI) utilizando GitHub Copilot CLI en modo programático
 
-#### Paso 1: Arrancar la terminal
-
-Abrir la terminal con la que se va a trabajar
-
-#### Paso 2: Localizar el directorio de trabajo
-
-Ubicarse en el directorio de trabajo donde se quiere utilizar GitHub Copilot CLI
-
-#### Paso 3: Arrancar el modo programático
-
-Ejecutar el siguiente comando:
+Repetir todos los pasos del "Caso de uso 1", pero utilizando el siguiente comando:
 
 ```bash
 # Ejemplo 1
@@ -99,8 +90,6 @@ copilot -p "Ejecutar 'find . -type f -mtime -7'"
 ```
 
 Verificar que se ejecuta la consulta en modo programático
-
-En caso de que sea la primera vez que se utiliza, se pedirá iniciar sesión en GitHub y autorizar el acceso a Copilot CLI
 
 Se mostrará el resultado
 
