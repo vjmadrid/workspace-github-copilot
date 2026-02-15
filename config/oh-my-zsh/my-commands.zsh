@@ -13,12 +13,12 @@ function git-local-set-author() {
     echo "Git author set to: $1 <$2>"
 }
 
-# Comando personalizado para configurar la identidad de autor en un repositorio local de Git con valores fijos para la cuenta vjmadrid
-function git-local-set-author-vjmadrid() {
-    git-local-set-author "vjmadrid" "victor.j.madrid@gmail.com"
+# Comando personalizado para configurar la identidad de autor en un repositorio local de Git con valores fijos para la cuenta personal-username
+function git-local-set-author-personal-username() {
+    git-local-set-author "personal-username" "personal-username@gmail.com"
 }
 
-# Comando personalizado para configurar la identidad de autor en un repositorio local de Git con valores fijos para la cuenta vjmadrid-knm
-function git-local-set-author-vjmadrid-knm() {
-    git-local-set-author "vjmadrid-knm" "vjmadrid@knowmadmood.com"
+# Comando personalizado para configurar la identidad de autor en un repositorio local de Git con valores fijos para la cuenta corporate-username
+function git-local-set-author-corporate-username() {
+    git-local-set-author "corporate-username" "corporate-username@acme.com"
 }
