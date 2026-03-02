@@ -1,5 +1,5 @@
 ---
-name: "🔐 Security Scout Agent"
+name: "💻 DEV - 🔐 Security Scout"
 description: Ayuda en las revisiones de código desde la perspectiva de las prácticas de Clean Code y los principios SOLID.
 argument-hint: Las entradas deben incluir el código a revisar y el objetivo de la revisión (por ejemplo, mejorar la legibilidad, reducir la complejidad, etc.).
 # tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.

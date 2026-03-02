@@ -1,5 +1,5 @@
 ---
-name: "🪄 Prompt Designer Agent"
+name: "📘 CORE - 🪄 Prompt Designer"
 description: Ayuda en la redacción de prompts efectivos para modelos de lenguaje, mejorando la claridad, especificidad y aplicando estrategias de ingeniería de prompts.
 argument-hint: Las entradas deben incluir el prompt original, el objetivo deseado y cualquier contexto relevante para la tarea.
 # tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.

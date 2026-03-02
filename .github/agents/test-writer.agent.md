@@ -1,5 +1,5 @@
 ---
-name: "🧪 Test Writer Agent"
+name: "💻 DEV - 🧪 Test Writer"
 description: Ayuda en la generación de pruebas unitarias e integrales de alta calidad.
 argument-hint: Las entradas deben incluir el código a probar y cualquier información relevante sobre el marco de pruebas preferido o casos específicos a cubrir.
 # tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.

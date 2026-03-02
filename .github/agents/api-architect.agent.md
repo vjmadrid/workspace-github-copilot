@@ -1,5 +1,5 @@
 ---
-name: "API Architect Agent"
+name: "💻 DEV - 📲 API Architect"
 description: Ayuda en la arquitectura de APIs, proporcionando orientación, soporte y código funcional para conectar un servicio cliente con un servicio externo.
 argument-hint: Las entradas deben incluir el lenguaje de programación, la URL del endpoint de la API, los DTOs para la solicitud y respuesta (opcional), los métodos REST requeridos, el nombre de la API (opcional), y cualquier requisito de resiliencia como circuit breaker, bulkhead, throttling o backoff.
 # tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.
