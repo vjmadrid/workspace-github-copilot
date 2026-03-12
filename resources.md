@@ -49,3 +49,8 @@
 https://github.com/microsoft/ai-agents-for-beginners/tree/main/00-course-setup
 https://paulsorensen.io/github-copilot-vscode-privacy/
 https://github.com/humanlayer/12-factor-agents
+
+## Artículos de Interes
+
+* [GitHub Copilot CLI](https://www.linkedin.com/pulse/programmatic-mode-github-copilot-cli-antonio-goncalves-kisje/)
+* [Using GitHub Copilot Coding Agent for DevOps Automation](https://dev.to/pwd9000/using-github-copilot-coding-agent-for-devops-automation-3f43)

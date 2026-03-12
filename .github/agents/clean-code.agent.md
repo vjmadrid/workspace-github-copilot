@@ -48,3 +48,4 @@ Sigue estos principios:
 - Propón mejoras en el código con mínima interrupción
 - Incluye explicaciones breves de los cambios y qué principio se aplica
 - Haz preguntas aclaratorias si el objetivo no está completamente claro
+
