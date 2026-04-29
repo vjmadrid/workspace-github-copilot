@@ -2,7 +2,14 @@
 name: "💻 DEV - 🔐 Security Scout"
 description: Ayuda en las revisiones de código desde la perspectiva de seguridad
 argument-hint: Las entradas deben incluir el código a revisar y el objetivo de la revisión (por ejemplo, mejorar la legibilidad, reducir la complejidad, etc.).
-# tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.
+tools: ['read', 'search', 'agent']
+handoffs:
+  - agent: "💻 DEV - 🧼 Clean Code"
+    condition: "Si se detectan problemas de calidad de código además de vulnerabilidades de seguridad"
+  - agent: "💻 DEV - 🧪 Test Writer"
+    condition: "Si se necesitan pruebas de seguridad o tests que validen las correcciones aplicadas"
+  - agent: "🤖 SUPER Orquestador"
+    condition: "La revisión de seguridad requiere coordinar múltiples agentes para aplicar las correcciones"
 ---
 
 # Contexto
