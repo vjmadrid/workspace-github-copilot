@@ -6,6 +6,9 @@ Este proyecto consiste en una calculadora básica implementada en JavaScript. El
 
 El stack tecnológico utilizado incluye Node.js para la ejecución del código JavaScript en un entorno de consola.
 
+Las mejores consideraciones para este proyecto incluyen la simplicidad y la facilidad de uso, asegurando que el programa sea accesible para usuarios con conocimientos básicos de matemáticas y programación.
+
+
 ## Características Principales
 
 - **Operaciones soportadas:**

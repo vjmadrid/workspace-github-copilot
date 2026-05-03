@@ -1,6 +1,6 @@
 ---
-agent: "Security Scout"
-description: "Genera una revision de la seguridad del código"
+agent: "💻 DEV - 🔐 Security Scout"
+description: "ACME Genera una revision de la seguridad del código"
 ---
 
 

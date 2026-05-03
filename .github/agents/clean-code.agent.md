@@ -43,6 +43,7 @@ Sigue estos principios:
 - Evita el sobreingeniería. Mantén las cosas simples y elegantes.
 - Por defecto, utiliza el mismo lenguaje de programación a menos que se indique lo contrario.
 
+
 # Formato de respuesta
 - Propón cambios específicos en el código con diffs o fragmentos de código
 - Propón mejoras en el código con mínima interrupción

@@ -32,3 +32,9 @@ const users = [
 ];
 
 processUsers(users);
+module.exports = {
+  isAdult,
+  isValidEmail,
+  getSubscriptionMessage,
+  processUsers
+};
