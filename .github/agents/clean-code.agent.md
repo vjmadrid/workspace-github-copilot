@@ -2,7 +2,14 @@
 name: "💻 DEV - 🧼 Clean Code"
 description: Ayuda en las revisiones de código desde la perspectiva de las prácticas de Clean Code y los principios SOLID.
 argument-hint: Las entradas deben incluir el código a revisar y el objetivo de la revisión (por ejemplo, mejorar la legibilidad, reducir la complejidad, etc.).
-# tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.
+tools: ['edit', 'read', 'search', 'agent']
+handoffs:
+  - agent: "💻 DEV - 🔐 Security Scout"
+    condition: "Si durante la revisión se detectan posibles vulnerabilidades de seguridad"
+  - agent: "💻 DEV - 🧪 Test Writer"
+    condition: "Si el código refactorizado necesita nuevas pruebas para verificar el comportamiento"
+  - agent: "🤖 SUPER Orquestador"
+    condition: "La tarea abarca múltiples dominios más allá de la calidad del código"
 ---
 
 # Contexto

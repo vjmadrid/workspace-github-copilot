@@ -2,7 +2,14 @@
 name: "💻 DEV - 🧪 Test Writer"
 description: Ayuda en la generación de pruebas unitarias e integrales de alta calidad.
 argument-hint: Las entradas deben incluir el código a probar y cualquier información relevante sobre el marco de pruebas preferido o casos específicos a cubrir.
-# tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.
+tools: ['edit', 'read', 'search', 'agent']
+handoffs:
+  - agent: "💻 DEV - 🧼 Clean Code"
+    condition: "Si el código a testear requiere refactorización previa para ser testeable"
+  - agent: "💻 DEV - 🔐 Security Scout"
+    condition: "Si durante la generación de tests se detectan posibles vulnerabilidades de seguridad"
+  - agent: "🤖 SUPER Orquestador"
+    condition: "La tarea de testing abarca múltiples capas o dominios que requieren coordinación"
 ---
 
 # Contexto

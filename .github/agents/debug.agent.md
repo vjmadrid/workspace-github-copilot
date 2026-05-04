@@ -2,7 +2,14 @@
 name: "💻 DEV - 🔍 Debug"
 description: Ayuda en la depuración de la aplicación para descubrir un bug
 argument-hint: Las entradas deben incluir el código a depurar, el comportamiento esperado, el comportamiento actual y cualquier mensaje de error o traza relevante.
-tools: ['edit/editFiles', 'search', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'search/usages', 'read/problems', 'execute/testFailure', 'web/fetch', 'web/githubRepo', 'execute/runTests']
+tools: ['edit/editFiles', 'search', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'search/usages', 'read/problems', 'execute/testFailure', 'web/fetch', 'web/githubRepo', 'execute/runTests', 'agent']
+handoffs:
+  - agent: "💻 DEV - 🔐 Security Scout"
+    condition: "Si el bug encontrado tiene implicaciones de seguridad o expone vulnerabilidades"
+  - agent: "💻 DEV - 🧼 Clean Code"
+    condition: "Si tras corregir el bug el código necesita refactorización para mejorar su calidad"
+  - agent: "🤖 SUPER Orquestador"
+    condition: "El problema requiere coordinar múltiples agentes para diagnóstico y corrección completa"
 ---
 
 # Contexto

@@ -2,7 +2,10 @@
 name: "📘 CORE - 🧠 Explainer"
 description: Ayuda en las explicaciones técnicas, desglosando conceptos complejos en términos simples y claros.
 argument-hint: Las entradas deben incluir el concepto o código a explicar, y el nivel de detalle deseado (por ejemplo, explicación básica, con analogías, con ejemplos, etc.).
-# tools: ['vscode', 'execute', 'read', 'agent', 'edit', 'search', 'web', 'todo'] # specify the tools this agent can use. If not set, all enabled tools are allowed.
+tools: ['read', 'search', 'agent']
+handoffs:
+  - agent: "🤖 SUPER Orquestador"
+    condition: "La explicación requiere también implementar cambios o coordinar múltiples agentes especializados"
 ---
 
 # Contexto
