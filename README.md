@@ -1,118 +1,96 @@
-# Documentación del Proyecto: Calculadora Básica en JavaScript
+# workspace-github-copilot
 
-## Descripción General
+<p align="center">
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+</p>
 
-Este proyecto consiste en una calculadora básica implementada en JavaScript. El programa permite realizar operaciones matemáticas simples: suma, resta, multiplicación y división. El usuario interactúa con la calculadora a través de la consola, ingresando los números y la operación deseada. El resultado se muestra también en la consola.
+Este proyecto contiene ejemplos, soluciones y recursos para el uso avanzado de GitHub Copilot y prácticas modernas de desarrollo.
 
-El stack tecnológico utilizado incluye Node.js para la ejecución del código JavaScript en un entorno de consola.
+## Características
 
-Las mejores consideraciones para este proyecto incluyen la simplicidad y la facilidad de uso, asegurando que el programa sea accesible para usuarios con conocimientos básicos de matemáticas y programación.
+* Ejemplos de integración y uso de GitHub Copilot
+* Soluciones a ejercicios prácticos
+* Buenas prácticas de desarrollo y automatización
+* Scripts y utilidades para flujos de trabajo
+* Ejemplos de configuración y personalización
+* Despliegue en contenedor (Docker)
 
+## Stack Tecnológico
 
-## Características Principales
+### General
 
-- **Operaciones soportadas:**
-	- Suma
-	- Resta
-	- Multiplicación
-	- División
-- **Interfaz de usuario:**
-	- Solicita la entrada del usuario mediante la consola.
-	- Muestra el resultado de la operación en la consola.
-- **Validaciones:**
-	- Verifica que las entradas sean números válidos.
-	- Controla la división por cero.
+* [Node.js](https://nodejs.org/) 18.x+
+* [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-## Estructura del Código
+### Dependencias principales
 
-El programa está compuesto por las siguientes funciones principales:
+* **Jest** : Framework de testing para JavaScript
+  * [Pypi](https://www.npmjs.com/package/jest)
+  * [Repositorio](https://github.com/facebook/jest)
+  * [Documentación](https://jestjs.io/)
+* **ESLint** : Linter para mantener la calidad del código
+  * [Npm](https://www.npmjs.com/package/eslint)
+  * [Repositorio](https://github.com/eslint/eslint)
+  * [Documentación](https://eslint.org/)
+* **Prettier** : Formateador de código
+  * [Npm](https://www.npmjs.com/package/prettier)
+  * [Repositorio](https://github.com/prettier/prettier)
+  * [Documentación](https://prettier.io/)
 
-- `sumar(a, b)`: Devuelve la suma de `a` y `b`.
-- `restar(a, b)`: Devuelve la resta de `a` y `b`.
-- `multiplicar(a, b)`: Devuelve el producto de `a` y `b`.
-- `dividir(a, b)`: Devuelve el cociente de `a` y `b`. Si `b` es cero, muestra un mensaje de error.
-- `main()`: Función principal que gestiona la interacción con el usuario y llama a las funciones correspondientes.
+### Dependencias de desarrollo
 
-## Ejemplo de Uso
+* **nodemon** : Recarga automática en desarrollo
+* **cross-env** : Configuración de variables de entorno multiplataforma
 
-Al ejecutar el programa, el usuario verá mensajes en la consola solicitando:
+## Pre-Requisitos
 
-1. El primer número.
-2. El operador (+, -, *, /).
-3. El segundo número.
+* Node.js 18.x o superior
+* Docker instalado (opcional para despliegue)
 
-Luego, el programa mostrará el resultado de la operación.
+## Instalación
 
+1. Clonar el repositorio
+2. Instalar dependencias:
+
+```bash
+npm install
 ```
-Ingrese el primer número: 8
-Ingrese la operación (+, -, *, /): *
-Ingrese el segundo número: 5
-Resultado: 40
+
+## Testing
+
+1. Ejecutar los tests:
+
+```bash
+npm test
 ```
 
-## Ejemplo de Código
+## Despliegue
 
-```javascript
-const readline = require('readline');
+En construcción
 
-function sumar(a, b) {
-	return a + b;
-}
+## Dockerize
 
-function restar(a, b) {
-	return a - b;
-}
+1. Construir la imagen Docker:
 
-function multiplicar(a, b) {
-	return a * b;
-}
-
-function dividir(a, b) {
-	if (b === 0) {
-		console.log('Error: No se puede dividir por cero.');
-		return null;
-	}
-	return a / b;
-}
-
-function main() {
-	const rl = readline.createInterface({
-		input: process.stdin,
-		output: process.stdout
-	});
-
-	rl.question('Ingrese el primer número: ', (num1) => {
-		rl.question('Ingrese la operación (+, -, *, /): ', (operador) => {
-			rl.question('Ingrese el segundo número: ', (num2) => {
-				const a = parseFloat(num1);
-				const b = parseFloat(num2);
-				let resultado;
-				switch (operador) {
-					case '+':
-						resultado = sumar(a, b);
-						break;
-					case '-':
-						resultado = restar(a, b);
-						break;
-					case '*':
-						resultado = multiplicar(a, b);
-						break;
-					case '/':
-						resultado = dividir(a, b);
-						break;
-					default:
-						console.log('Operador no válido.');
-						rl.close();
-						return;
-				}
-				if (resultado !== null) {
-					console.log('Resultado:', resultado);
-				}
-				rl.close();
-			});
-		});
-	});
-}
-
-main();
+```bash
+docker build -t workspace-github-copilot .
 ```
+
+2. Ejecutar el contenedor:
+
+```bash
+docker run -p 3000:3000 workspace-github-copilot
+```
+
+## Uso
+
+Consultar los ejemplos y scripts en la carpeta `examples/` y `solutions/`.
+
+## Versionado
+
+**Nota:** [SemVer](http://semver.org/) es utilizado para el versionado.
+
+## Autores
+
+* **Víctor Madrid**
+* **GitHub Copilot**
